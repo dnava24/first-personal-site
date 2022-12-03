@@ -1,0 +1,162 @@
+
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    color:#EAF6F6;
+    background-color: #040b10;
+    background-image: linear-gradient(160deg, #040b10 0%, #4667ad 95%);
+}
+span{
+    text-decoration: underline;
+}
+h1{
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', sans-serif;
+    color:#66BFBF;
+    line-height: 1.5;
+}
+h2{
+    font-size: 2.5rem;
+    color: #54bcbc;
+    font-weight: normal;
+}
+
+h3{
+    color: #52aaad;
+}
+
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: #11999e;
+}
+hr{
+    border:8px dotted #b6cccc;
+    width: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 5rem auto;
+
+}
+.top-container{
+    padding-top: 200px;
+    position: relative;
+}
+
+
+
+/* images */
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    max-width: 100%;
+    height: auto;
+    opacity: .8;
+    
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 200px;
+    left: 10rem;
+    width: 300px;
+    z-index: 2;
+    opacity: .6;
+    
+}
+.moon{
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left:0;
+    z-index: -1;
+    
+}
+.portrait{
+    margin-top: 8em;
+}
+
+.my-story-cnt{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+img:hover:not(.mountain){
+    scale: 1.2;
+}
+
+/* .........skills */
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.programming{
+    float: left;
+    margin-right: 1.8em;
+}
+.coffee{
+    float: right;
+    margin-left: 1.8em;
+}
+   .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #040b10;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+  }
+  
+  .btn:hover {
+    background-color: #EAF6F6;
+    color:#040b10;
+    
+    
+  }
+  .bottom-container p{
+      font-size: .8rem;
+  }
+  .contact-me{
+      margin: 5rem auto;
+  }
+  .contact-me p{
+      margin: 5em auto;
+  }
+  .bottom-container{
+    width: 100%;
+    background-color: #040b10;
+    padding: 3em 0;
+    text-align: center;
+    color:#EAF6F6;
+}
+.footer-link{
+    text-decoration: none;
+    margin: 1em;
+}
+.footer-link:hover{
+    color:#EAF6F6;
+    
+    
+  
+}
+
+.fltcons{
+    font-size: .5em;
+    margin-bottom: 0;
+}
